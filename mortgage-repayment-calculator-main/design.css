@@ -1,0 +1,723 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.overalldiv {
+    background-color: hsl(199, 29%, 77%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.firstdiv {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.illusdiv {
+    background: hsl(202, 55%, 16%);
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    border-radius: 0px 20px 20px 60px;
+
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 120px;
+
+}
+
+.fentimg {
+    display: flex;
+    align-self: center;
+    color: white;
+    padding-left: 7px;
+    margin: 0px;
+    margin-top: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: hsl(201, 26%, 87%);
+}
+
+.fentimg2 {
+    display: flex;
+    align-self: center;
+    padding-left: 20px;
+    margin: 0px;
+    margin-top: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: hsl(201, 26%, 87%);
+    font-size: 15px;
+    width: 97%;
+}
+
+
+.blendcon {
+    color: hsl(201, 26%, 87%);
+    margin: 4px;
+    padding-left: 40px;
+    font-family: "Plus Jakarata Sans", sans-serif;
+
+}
+
+.deckimg {
+    margin: 0px;
+    padding-left: 129px;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+}
+.deckimg2 {
+    margin: 0px;
+    padding-left: 40px;
+    padding-top: 40px;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+}
+
+.easydiv {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.organ {
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.plenty {
+    padding-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding-top: 60px;
+    width: 95%;
+}
+
+.mortage {
+    color: hsl(202, 55%, 16%);
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.clear {
+    font-size: 18px;
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-weight: 500;
+    color: hsl(201, 48%, 45%);
+    padding-top: 10px;
+    transition: color(2.4s);
+
+}
+
+.passage {
+    font-size: 16px;
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-weight: 500;
+    color: hsl(200, 26%, 54%);
+    padding-left: 30px;
+    margin-bottom: 6px;
+}
+
+.button {
+    padding: 12px;
+    width: 90%;
+    /* margin-left: 30px; */
+    /* border: 1.5px solid hsl(200, 26%, 54%); */
+    /* border-radius: 4px;  */
+    border: 0;
+    outline: 0;
+    width: 70px;
+
+}
+
+.euro {
+    background-color: hsl(201, 30%, 81%);
+    padding: 6px 14px;
+    color: hsl(202, 55%, 16%);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amountDiv {
+    display: flex;
+    border: 1px solid hsl(201, 30%, 81%);
+    border-radius: 6px;
+    margin-left: 30px;
+    overflow: hidden;
+    width: 90%;
+}
+
+.belice {
+    font-size: 16px;
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-weight: 500;
+    color: hsl(200, 26%, 54%);
+    padding-left: 34px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.check {
+    padding: 12px;
+    width: 75%;
+    margin-left: 30px;
+    border: 1.5px solid hsl(200, 26%, 54%);
+    border-radius: 8px;
+}
+
+.commitment {
+    font-size: 16px;
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-weight: 500;
+    color: hsl(200, 26%, 54%);
+    padding-left: 30px;
+    margin-bottom: 9px;
+    margin-top: 10px;
+}
+
+.dicover {
+    padding: 12px;
+    width: 75%;
+    margin-left: 30px;
+    border: 1.5px solid hsl(200, 26%, 54%);
+    border-radius: 8px;
+}
+
+.opera {
+    display: flex;
+    margin-top: 20px;
+}
+
+.mavel {
+    padding: 12px;
+    width: 20%;
+    /* margin-left: 30px; */
+    /* border: 1.5px solid hsl(200, 26%, 54%); */
+    /* border-radius: 4px;  */
+    border: 0;
+    outline: 0;
+}
+
+.service {
+    padding-top: 30px;
+}
+
+.blend {
+    flex-direction: column;
+    display: flex;
+
+}
+
+.blume {
+    padding: 0px;
+    width: 60%;
+    margin-left: 30px;
+    border: 1.5px solid rgb(24, 23, 23);
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+.paint {
+    margin: 0px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grees {
+    margin: 0px;
+}
+
+.class {
+    font-size: 16px;
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-weight: 500;
+    color: hsl(200, 26%, 54%);
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.soa {
+    padding-left: -10px;
+    font-size: 20px;
+}
+
+.pretige {
+    width: 90%;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1.5px solid hsl(201, 30%, 81%);
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-weight: 600;
+    display: flex;
+    /* align-items: last baseline; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    gap: 20px;
+    color: hsl(202, 55%, 16%);
+}
+
+.interest {
+    width: 90%;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1.5px solid hsl(201, 30%, 81%);
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-weight: 600;
+    display: flex;
+    /* align-items: last baseline; */
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    gap: 20px;
+
+}
+
+
+
+.occupy {
+    width: 90%;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1.5px solid hsl(201, 30%, 81%);
+    font-family: "Plus Jakarata Sans", sans-serif;
+    font-weight: 600;
+    color: hsl(202, 55%, 16%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.holder {
+    padding: 12px;
+    width: 100%;
+    /* margin-left: 30px; */
+    /* border: 1.5px solid hsl(200, 26%, 54%); */
+    /* border-radius: 4px;  */
+    border: 0;
+    outline: 0;
+}
+
+.holder1 {
+    padding: 12px;
+    padding-left: 0px;
+    width: 60%;
+    /* margin-left: 30px; */
+    /* border: 1.5px solid hsl(200, 26%, 54%); */
+    /* border-radius: 4px;  */
+    border: 0;
+    outline: 0;
+}
+
+.fbi {
+    display: flex;
+    border: 1px solid hsl(201, 30%, 81%);
+    border-radius: 6px;
+    margin-left: 30px;
+    overflow: hidden;
+    width: 75%;
+    flex-direction: row-reverse;
+    margin-left: 34px;
+}
+
+.ableid {
+    display: flex;
+    border: 1px solid hsl(201, 30%, 81%);
+    border-radius: 6px;
+    margin-left: 30px;
+    overflow: hidden;
+    width: 75%;
+    flex-direction: row-reverse;
+    margin-left: 34px;
+}
+
+.ableid {
+    display: flex;
+    border: 1px solid hsl(201, 30%, 81%);
+    border-radius: 6px;
+    margin-left: 30px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.beauty {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: hsl(61, 70%, 52%);
+    border: none;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: hsl(202, 55%, 16%);
+    padding: 12px;
+}
+
+.server{
+    display: none;
+}
+
+.brill {
+    padding: 12px;
+    width: 80%;
+    /* margin-left: 30px; */
+    /* border: 1.5px solid hsl(200, 26%, 54%); */
+    /* border-radius: 4px;  */
+    border: 0;
+    outline: 0;
+}
+
+.int {
+    color: hsl(202, 55%, 16%);
+}
+
+.sprint{
+    background-color: hsl(202, 56%, 12%);
+    margin: auto;
+    height: 50%;
+    width: 80%;
+    margin-top: 30px;
+    border-top: 5px solid hsl(61, 70%, 52%);
+    border-radius: 6px;
+}
+
+.jinx{
+    color: hsl(204, 68%, 88%);
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.vi{
+    color: hsl(204, 68%, 88%);
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.bread{
+    background-color: hsl(202, 86%, 94%);
+    width: 90%;
+    margin-left: 15px;
+    border: 1px solid hsl(204, 57%, 15%);
+    margin-top: 90px;
+    padding: 0px;
+}
+
+@media(max-width:650px) {
+    .overalldiv {
+        background-color: white;
+
+    }
+
+    .firstdiv {
+        background-color: white;
+        width: 100%;
+        /* margin: auto; */
+        height: 100%;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        border-radius: 0px;
+        display: block;
+    }
+
+    .illusdiv {
+        background: hsl(202, 55%, 16%);
+        /* justify-content: flex-end; */
+        /* align-items: center; */
+        width: 100vw;
+        height: 50vh;
+        border-radius: 0px 0px 0px 0px;
+        margin-top: 20px;
+
+    }
+
+    .plenty {
+        padding-left: 35px;
+        display: block;
+        justify-content: space-between;
+        gap: 100px;
+        padding-top: 60px;
+        width: 110%;
+    }
+
+    .clear {
+        font-size: 20px;
+        font-family: "Plus Jakarata Sans", sans-serif;
+        font-weight: 500;
+        color: hsl(201, 48%, 45%);
+        padding-top: 10px;
+        transition: color(2.4s);
+        margin-bottom: 10px;
+    }
+
+    .mortage {
+        color: hsl(202, 55%, 16%);
+        font-family: "Plus Jakarata Sans", sans-serif;
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .passage {
+        font-size: 20px;
+        font-family: "Plus Jakarata Sans", sans-serif;
+        font-weight: 500;
+        color: hsl(200, 26%, 54%);
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .belice {
+        font-size: 20px;
+        font-family: "Plus Jakarata Sans", sans-serif;
+        font-weight: 500;
+        color: hsl(200, 26%, 54%);
+        padding-left: 34px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .commitment {
+        font-size: 20px;
+        font-family: "Plus Jakarata Sans", sans-serif;
+        font-weight: 500;
+        color: hsl(200, 26%, 54%);
+        padding-left: 32px;
+        margin-bottom: 9px;
+        margin-top: 20px;
+    }
+
+    .opera {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .fbi {
+        display: flex;
+        border: 1px solid hsl(201, 30%, 81%);
+        border-radius: 6px;
+        margin-left: 30px;
+        overflow: hidden;
+        width: 85%;
+        flex-direction: row-reverse;
+        margin-left: 34px;
+        margin-top: 12px;
+    }
+
+    .ableid {
+        display: flex;
+        border: 1px solid hsl(201, 30%, 81%);
+        border-radius: 6px;
+        margin-left: 30px;
+        overflow: hidden;
+        width: 85%;
+        flex-direction: row-reverse;
+        margin-left: 34px;
+        margin-top: 12px;
+    }
+
+    .amountDiv {
+        display: flex;
+        border: 1px solid hsl(201, 30%, 81%);
+        border-radius: 6px;
+        margin-left: 30px;
+        overflow: hidden;
+        width: 85%;
+    }
+
+    .class {
+        font-size: 20px;
+        font-family: "Plus Jakarata Sans", sans-serif;
+        font-weight: 500;
+        color: hsl(200, 26%, 54%);
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .pretige {
+        width: 85%;
+        margin-left: 30px;
+        background-color: white;
+        border-radius: 6px;
+        padding: 10px;
+        border: 1.5px solid hsl(201, 30%, 81%);
+        font-family: "Plus Jakarata Sans", sans-serif;
+        font-weight: 600;
+        display: flex;
+        /* align-items: last baseline; */
+        /* align-items: center; */
+        /* justify-content: flex-start; */
+        gap: 20px;
+        color: hsl(202, 55%, 16%);
+    }
+
+    .occupy {
+        width: 85%;
+        margin-left: 30px;
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 20px;
+        padding: 10px;
+        border: 1.5px solid hsl(201, 30%, 81%);
+        font-family: "Plus Jakarata Sans", sans-serif;
+        font-weight: 600;
+        color: hsl(202, 55%, 16%);
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .preg {
+        font-size: 20px;
+        color: hsl(202, 55%, 16%);
+        
+    }
+
+    .int {
+        color: hsl(202, 55%, 16%);
+        font-size: 20px;
+    }
+
+    .block {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        padding-top: 50px;
+
+    }
+
+    .blendcon {
+        color: hsl(201, 26%, 87%);
+        margin: 4px;
+        padding-left: 35px;
+        font-family: "Plus Jakarata Sans", sans-serif;
+        margin-bottom:20px ;
+        font-size: 15px;
+        font-weight: 600;
+        padding-bottom: 40px;
+    }
+
+    .fentimg {
+        display: flex;
+        align-self: center;
+        color: white;
+        padding-left: 0px;
+        margin: 0px;
+        margin-top: 5px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        color: hsl(201, 26%, 87%);
+        width: 100%;
+        font-size: 15px;
+        font-weight: 600px;
+    }
+
+    .easydiv {
+        padding-left: 20px;
+        padding-top: 25px;
+
+    }
+
+
+    .server{
+        display: none;
+    }
+
+    .deckimg2 {
+        margin: 0px;
+        padding-left: 40px;
+        padding-top: 20px;
+        color: white;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 24px;
+    }
+
+    .sprint{
+        background-color: hsl(202, 56%, 12%);
+        /* margin: auto; */
+        height: 60%;
+        width: 80%;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        display: block;
+        border-top: 7px solid hsl(61, 70%, 52%);
+        border-radius: 8px;
+    }
+    
+    .jinx{
+        color:hsl(204, 68%, 88%);
+    }
+
+    .bread{
+        background-color: hsl(202, 86%, 94%);
+        width: 90%;
+        margin-left: 15px;
+        border: 1px solid hsl(204, 57%, 15%);
+        margin-top: 100px;
+        padding: 0px;
+    }
+
+    .beauty {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 30px;
+        margin-top: 20px;
+        background-color: hsl(61, 70%, 52%);
+        border: none;
+        border-radius: 20px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        color: hsl(202, 55%, 16%);
+        padding: 12px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .vi{
+        color: hsl(204, 68%, 88%);
+        font-size: 13px;
+        margin-top: 30px;
+        margin-left: 20px;
+        padding-bottom: 70px;
+    }
+
+    #mortgage{
+        margin-top: 8px;
+    }
+}
